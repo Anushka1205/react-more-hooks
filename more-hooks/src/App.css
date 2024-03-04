@@ -1,0 +1,30 @@
+*{
+  margin: 0 ;
+  padding: 5px;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-color: rgb(222, 220, 220);
+}
+
+.box{
+  border: 2px solid black;
+  width: 30%;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 15%;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(126, 125, 125);
+}
+
+.box input{
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px rgb(126, 125, 125);
+}
+
